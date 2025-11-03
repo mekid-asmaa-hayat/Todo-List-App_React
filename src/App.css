@@ -1,0 +1,74 @@
+.iconesbutton {
+  transition: all 0.9s ease !important;
+  cursor: pointer; /* pour indiquer que c’est cliquable */
+}
+
+.iconesbutton:hover {
+  background-color: rgb(86, 82, 82) !important;
+}
+
+/* Animation douce au survol des cartes */
+.todoCard {
+  transition: all 0.5s ease !important;
+  
+}
+
+.todoCard:hover {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  box-shadow: 0px 7px 7px #757578;
+}
+
+/* Import de la police Alexandria */
+@font-face {
+  font-family: 'Alexandria';
+  src: url('./public/fonts/Alexandria-Black.ttf') format('truetype');
+  font-weight: 700;
+}
+
+body {
+  font-family: 'Alexandria', sans-serif;
+}
+
+/*#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+}*/
