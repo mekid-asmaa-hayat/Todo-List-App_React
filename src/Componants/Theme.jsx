@@ -1,4 +1,4 @@
-// src/Componants/Theme.jsx
+
 import { createTheme } from "@mui/material/styles";
 
     const Theme = createTheme({

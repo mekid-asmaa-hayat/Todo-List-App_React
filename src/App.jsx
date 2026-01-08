@@ -15,8 +15,8 @@ export default function App() {
         height: "100vh",
         direction: "ltr",
         textAlign: "center",
-        color: "white", // pour que le texte soit visible sur fond sombre
-        flexDirection: "column", // pour que le h1 soit sous la liste
+        color: "white", 
+        flexDirection: "column", 
       }}
     >
       <TodoList />

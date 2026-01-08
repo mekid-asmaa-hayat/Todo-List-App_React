@@ -4,7 +4,7 @@
 
     const ToastContext = createContext();
 
-    // composant MUI pour l'alerte stylée
+
     const Alert = (props) => {
     return <MuiAlert elevation={6} variant="filled" {...props} />;
     };
@@ -16,12 +16,12 @@
         type: "success",
     });
 
-    // Fonction pour afficher le toast
+
     const showToast = (message, type = "success") => {
         setToast({ open: true, message, type });
     };
 
-    // Fermer le toast
+
     const handleClose = (_, reason) => {
         if (reason === "clickaway") return;
         setToast((prev) => ({ ...prev, open: false }));
@@ -31,7 +31,7 @@
         <ToastContext.Provider value={{ showToast }}>
         {children}
 
-        {/* Snackbar MUI */}
+        
         <Snackbar
             open={toast.open}
             autoHideDuration={3000}
@@ -46,5 +46,5 @@
     );
     };
 
-    // Hook personnalisé
+
     export const useToast = () => { return useContext(ToastContext)};
