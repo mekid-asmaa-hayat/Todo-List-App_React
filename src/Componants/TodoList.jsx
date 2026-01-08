@@ -28,7 +28,7 @@ const [todos, setTodos] = useState(() => {
   const [titleinput, setTitleinput] = useState("");
   const [alignment, setAlignment] = useState("left");
 
-  // 🟢 Charger les tâches sauvegardées au démarrage
+
   useEffect(() => {
     const savedTodos = localStorage.getItem("todos");
     if (savedTodos) {
@@ -36,7 +36,7 @@ const [todos, setTodos] = useState(() => {
     }
   }, []);
 
-  // 🔵 Sauvegarder les tâches à chaque changement
+
   useEffect(() => {
     localStorage.setItem("todos", JSON.stringify(todos));
   }, [todos]);

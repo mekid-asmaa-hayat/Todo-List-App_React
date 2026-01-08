@@ -1,13 +1,13 @@
 .iconesbutton {
   transition: all 0.9s ease !important;
-  cursor: pointer; /* pour indiquer que c’est cliquable */
+  cursor: pointer;
 }
 
 .iconesbutton:hover {
   background-color: rgb(86, 82, 82) !important;
 }
 
-/* Animation douce au survol des cartes */
+
 .todoCard {
   transition: all 0.5s ease !important;
   
