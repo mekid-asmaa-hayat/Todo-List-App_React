@@ -216,10 +216,9 @@ This project is licensed under the MIT License. See the `LICENSE` file for more 
 
 **Your Name**
 
-- Portfolio: [your-portfolio.com](https://your-portfolio.com)
-- LinkedIn: [linkedin.com/in/your-profile](https://linkedin.com/in/your-profile)
-- GitHub: [@your-username](https://github.com/your-username)
-- Email: your.email@example.com
+- Portfolio: https://mekid-portfolio.web.app/
+- LinkedIn: https://www.linkedin.com/in/mekid-asma-hayet-014850222/
+- Email: mekidasmaahayat1@gmail.com
 
 ---
 
