@@ -53,7 +53,7 @@ This project is part of my **Front-End Developer portfolio**.
 1. Clone the repository:
 
 ```bash
-git clone https://github.com/your-username/todo-list-app.git
+git clone https://github.com/mekid-asmaa-hayat/Todo-List-App_React
 ```
 
 2. Navigate to the project directory:
